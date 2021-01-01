@@ -1,0 +1,81 @@
+// Tabla
+.MuiPaper-root.MuiPaper-elevation2{
+    background-color: #272727 !important;
+    color: #a9a9aa !important;
+}
+.MuiTable-root th, 
+.MuiTableBody-root td
+{
+    background-color: #272727 !important;
+    color: #a9a9aa !important;
+}
+.MuiTableCell-root{
+    border-bottom: 1px solid #a9a9aa !important;
+    text-align: center !important;
+}
+.MuiTablePagination-root{
+    color: #a9a9aa !important;
+    border-bottom: none !important;
+}
+.MTablePaginationInner-root-208, 
+.MuiIconButton-root, 
+.MuiIconButton-root.Mui-disabled, 
+.MuiInputBase-root{
+    color: #a9a9aa !important;
+}
+// Fin tabla
+.MuiPickersToolbar-toolbar{
+    background-color: var(--main_color) !important;
+}
+.MuiTypography-h6{
+    font-weight: 600 !important;
+}
+.MuiButton-textPrimary{
+    color: var(--main_color) !important;
+    font-weight: 600 !important;
+    border: 1px solid var(--main_color) !important;
+    margin-left: 20px !important;
+    transition: all .3s;
+}
+.MuiButton-textPrimary:hover{
+    color: #ffffff !important;
+    background-color: var(--main_color) !important;
+}
+.MuiDialogActions-root{
+    padding: 20px !important;
+}
+.MuiFormLabel-root.Mui-focused{
+    color: var(--main_color) !important;
+}
+.MuiFormControl-marginDense{
+    margin-top: 15px !important;
+    margin-bottom: 10px !important;
+}
+.select_users{
+    margin-top: 0px !important;
+    font-size: 13px;
+}
+#name_modal_add_users,
+#role_modal_add_users, 
+#username_modal_add_users, 
+#password_modal_add_users, 
+#name_modal_add_users-label,
+#role_modal_add_users-label, 
+#username_modal_add_users-label, 
+#password_modal_add_users-label{
+    color: #000000 !important;
+}
+@media(max-width: 667px){
+    .MuiTable-root th, 
+    .MuiTableBody-root td
+    {
+        font-size: 0.8em !important;
+    }
+}
+@media(max-width: 450px){
+    .MuiTable-root th, 
+    .MuiTableBody-root td
+    {
+        font-size: 0.7em !important;
+    }
+}

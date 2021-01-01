@@ -1,0 +1,19 @@
+.stats_details_cards{
+    width: 15% !important; 
+    max-width: 15% !important; 
+    display: inline-block !important; 
+    background-color: #333333 !important; 
+    margin-right: 10px !important;
+}
+@media(max-width: 1100px){
+    .stats_details_cards{
+        width: 25% !important; 
+        max-width: 25% !important; 
+    }
+}
+@media(max-width: 630px){
+    .stats_details_cards{
+        width: 40% !important; 
+        max-width: 40% !important; 
+    }
+}

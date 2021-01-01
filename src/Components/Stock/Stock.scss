@@ -1,0 +1,31 @@
+.arrow_action_stock{
+    position: absolute;
+    top: 35%;
+    right: 30%;
+}
+.info_field{
+    font-size: 22px;
+}
+.row_titles{
+    width: 100% !important;
+}
+@media(max-width: 1300px){
+    .info_field{
+        font-size: 20px;
+    }
+}
+@media(max-width: 1150px){
+    .info_field{
+        font-size: 19px;
+    }
+}
+@media(max-width: 998px){
+    .info_field{
+        font-size: 18px;
+    }
+}
+@media(max-width: 450px){
+    .info_field{
+        font-size: 16px;
+    }
+}

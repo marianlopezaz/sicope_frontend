@@ -1,0 +1,37 @@
+#name_modal_add_clients,
+#surname_modal_add_clients, 
+#dni_modal_add_clients, 
+#phone_modal_add_clients, 
+#address_modal_add_clients,
+#address_modal_add_clients,
+#address_modal_add_clients-label,
+#name_modal_add_clients-label,
+#surname_modal_add_clients-label, 
+#dni_modal_add_clients-label, 
+#phone_modal_add_clients-label, 
+#address_modal_add_clients-label{
+    color: #000000 !important;
+}
+
+#client_add_container{
+    max-height: 750px;
+    overflow: auto;
+}
+
+// Google maps
+.pac-target-input:focus{
+    border-bottom: 2px solid var(--main_color);
+    
+}
+.pac-container {
+    z-index: 99999 !important;
+}
+.pac-target-input{
+    border-color: #a9a9aa;
+    border-width: 1px;
+}
+@media(max-width: 600px){
+    .pac-target-input{
+        top: 360px !important;
+    }
+}

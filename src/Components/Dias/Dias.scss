@@ -1,0 +1,120 @@
+.day_container{
+    background-color: rgb(39, 39, 39);
+    margin: 20px;
+    border-radius: 10px;
+    max-width: 30%;
+    border-width: 0;
+    padding: 20px;
+    .MuiIconButton-root{
+        color: #ffffff !important;
+    }
+}
+
+.day_info_container{
+    padding: 10px;
+}
+
+.card_name{
+    font-weight: 600;
+    font-size: 12px;
+    margin-bottom: 2px !important;
+}
+
+.days_card_icons{
+    background-color: var(--main_color) !important;
+    padding: 8px !important;
+    color: #fff !important;
+    margin-left: 5px !important;
+    transition: all .3s !important;
+}
+
+.days_card_icons:hover{
+    transform: scale(1.05);
+}
+
+.arrow_action{
+    margin-top: 50px;
+    
+}
+
+#card_view_action{
+    background-color: lighten($color: rgb(39, 39, 39), $amount: 20);
+    transition: all .3s !important;
+    border-radius: 10px;
+    opacity: 0.7;
+    text-align: center;
+    a{
+        color: white;
+    }
+}
+
+#card_view_action:hover{
+    background-color: var(--main_color) !important;
+    opacity: 1;
+    cursor: pointer;
+
+}
+
+#date_label, 
+#date_label-label{
+    color: #000000 !important;
+}
+
+@media(max-width: 1150px){
+    .card_atr{
+        font-size: 13px;
+    }
+    .MuiTypography-h6{
+        font-size: 1.2em !important;
+    }
+    .MuiButton-root{
+        font-size: 0.8em !important;
+    }
+}
+@media(max-width: 998px){
+    .card_name{
+        font-size: 10px;
+    }
+    .card_atr{
+        font-size: 12px;
+    }
+    .day_container{
+        max-width: 40%;
+    }
+    .MuiSvgIcon-root{
+        width: 0.8em !important;
+        height: 0.8em !important;
+    }
+}
+@media(max-width: 768px){
+    .MuiTypography-h6{
+        font-size: 1em !important;
+    }
+    #date_label-label{
+        font-size: 0.8em !important;
+    }
+    #date_label{
+        font-size: 0.8em !important;
+    }
+    .MuiButton-root{
+        font-size: 0.65em !important;
+    }
+}
+@media(max-width: 667px){
+    .day_container{
+        width: 90% !important;
+        max-width: 90% !important;
+    }
+}
+@media(max-width: 450px){
+    .day_container{
+        width: 95% !important;
+        max-width: 95% !important;
+    }
+    .MuiTypography-h6{
+        font-size: 0.9em !important;
+    }
+    .default_text{
+        font-size: 0.9em;
+    }
+}

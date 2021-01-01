@@ -1,0 +1,40 @@
+.card_container{
+margin-top: 80px;
+padding-top: 40px;
+border-radius: 10px;
+border-style: solid;
+-webkit-box-shadow: 10px 10px 10px #DFDFDF;
+-moz-box-shadow: 10px 10px 10px #DFDFDF;
+box-shadow: 10px 10px 10px #DFDFDF;
+}
+
+.header_card{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.title_card{
+    text-align: center;
+    font-weight: bold;
+    color: rgb(146, 144, 144);
+    font-family:  Verdana;
+    margin-bottom: 15px;
+    
+}
+
+.button_card{
+    width: 80%;
+}
+
+.button_col{
+    margin: 15px;
+}
+
+.button_card:hover{
+    background-color: rgb(133, 129, 129);
+    border-color: rgb(133, 129, 129);
+}
+
+.actions_container{
+    text-align: center;
+}

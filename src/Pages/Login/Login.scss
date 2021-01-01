@@ -1,0 +1,156 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    background-color: #333333 !important;
+}
+.row{
+    margin: 0px;
+}
+.center{
+    text-align: center !important;
+}
+#logo_cliente_login{
+    width: 25em;
+    margin-top: 5em;
+    margin-bottom: 3em
+}
+.form-control{
+    font-weight: 300;
+    border-radius: 0px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #a9a9aa !important;
+    background-color: transparent !important;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-bottom: 1px solid #a9a9aa !important;
+    margin-top: 1em;
+}
+.form-control:focus {
+    color: #000000;
+    background-color: #fff;
+    border-color: none;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid var(--main_color) !important;
+    outline: 0;
+    box-shadow: none;
+}
+#datafields_container{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3em 5em;
+    background-color: rgb(39, 39, 39);
+    margin-top: 3em;
+    color: #a9a9aa !important;
+    width: 40% !important;
+}
+#datafields_container p{
+    font-weight: 800;
+    font-size: 18px;
+    width: 100%;
+}
+#ingresar_btn{
+    margin-top: 3em;
+}
+#datafields_container button{
+    font-weight: 800;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    padding: .7em 0;
+    color: #ffffff;
+    background: linear-gradient(90deg, rgba(255,157,76,1) 0%, rgba(255,123,95,1) 20%, rgba(230,86,76,1) 39%, rgba(228,77,67,1) 59%, rgba(193,50,75,1) 80%, rgba(159,25,70,1) 100%);
+}
+#datafields_container button:hover{
+    cursor: pointer;
+    opacity: .8;
+}
+.MuiFormLabel-root{
+    color: #a9a9aa !important;
+}
+.MuiInput-underline:before{
+    border-bottom: 1px solid #a9a9aa !important;
+}
+.MuiInput-underline:after{
+    border-bottom: 2px solid var(--main_color) !important;
+}
+.MuiInputBase-input{
+    color: #a9a9aa !important;
+}
+@media(max-width: 1300px){
+    #logo_cliente_login{
+        width: 23em;
+    }
+    #datafields_container{
+        width: 50% !important;
+    }
+}
+@media(max-width: 1100px){
+    #logo_cliente_login{
+        width: 20em;
+    }
+    #datafields_container{
+        width: 55% !important;
+    }
+}
+@media(max-width: 997px){
+    #logo_cliente_login{
+        width: 17em;
+    }
+    #datafields_container{
+        width: 65% !important;
+    }
+}
+@media(max-width: 668px){
+    #datafields_container{
+        width: 90% !important;
+    }
+    #logo_cliente_login{
+        width: 15em;
+    }
+}
+@media(max-width: 500px){
+    #datafields_container{
+        padding: 2em 2em;
+    }
+    #logo_cliente_login{
+        margin-top: 20% !important;
+        width: 14em;
+    }
+    #p_iniciar_sesion{
+        font-size: 15px !important;
+    }
+    .form-control{
+        font-size: 12px !important;
+    }
+    #datafields_container button{
+        font-size: 15px;
+    }
+}
+@media(max-width: 450px){
+    #datafields_container{
+        width: 97% !important;
+    }
+    #logo_cliente_login{
+        width: 12em;
+    }
+}
+@media(max-width: 400px){
+    #logo_cliente_login{
+        width: 11em;
+    }
+    #datafields_container{
+        width: 100% !important;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0px !important;
+        box-shadow: none !important;
+        background: none !important;
+        margin-top: 3em;
+    }
+}

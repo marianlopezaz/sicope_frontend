@@ -1,0 +1,118 @@
+#search_input_sopping_cart {
+  background-color: rgb(39, 39, 39);
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  width: 63%;
+}
+.shopping_cart_button_container {
+  text-align: right;
+  display: block;
+  margin: 25px auto;
+  max-width: 90%;
+}
+
+.list_item_container {
+  background-color: #ececec;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.product_price_list {
+  color: green;
+}
+
+.product_name_list_container {
+  padding: 12px;
+  padding-top: 15px;
+}
+.MuiIconButton-root,
+.MuiIconButton-root.Mui-disabled {
+  color: #ffffff;
+}
+#text_field_shopping_cart-label,
+#text_field_shopping_cart {
+  color: #000000 !important;
+}
+@media (max-width: 1229px) {
+  .shopping_cart_button_container {
+    max-width: 63% !important;
+  }
+}
+
+@media (max-width: 998px) {
+  .shopping_cart_button_container {
+    max-width: 85% !important;
+  }
+  #search_input_sopping_cart {
+    width: 84%;
+  }
+}
+
+@media (max-width: 960px) {
+  .shopping_cart_button {
+    margin: 0px 5px !important;
+    padding: 7px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .shopping_cart_button {
+    margin: 2% !important;
+    padding: 2% !important;
+  }
+  #search_input_sopping_cart {
+    width: 90%;
+  }
+
+  .shopping_cart_button_container {
+    position: fixed !important;
+    max-width: 100% !important;
+    max-height: 100% !important;
+    background-color: #1b1b1b;
+    text-align: right;
+    bottom: 0px !important;
+    margin: 0px !important;
+    opacity: 0.8;
+  }
+}
+
+@media (max-width: 575px) {
+  #search_input_sopping_cart {
+    width: 90%;
+    font-size: 15px !important;
+  }
+}
+
+@media (max-width: 450px) {
+  .shopping_cart_button {
+    margin: 3% !important;
+    padding: 3% !important;
+  }
+
+  #search_input_sopping_cart {
+    width: 95%;
+  }
+
+  .product_name_list {
+    font-size: 15px;
+  }
+
+  .product_price_list {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 354px) {
+  .shopping_cart_button {
+    margin: 3.5% !important;
+    padding: 3.5% !important;
+  }
+
+  .product_name_list {
+    font-size: 12px;
+  }
+
+  .product_price_list {
+    font-size: 12px;
+  }
+}

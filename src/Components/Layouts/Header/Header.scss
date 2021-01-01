@@ -1,0 +1,185 @@
+
+/* Logos */
+#logo_cliente_header {
+    width: 170px;
+    padding: 0.3em;
+    margin-top: 8px;
+}
+
+#logout_user_icon {
+    width: 40px;
+    padding: 0.3em;
+    position: relative;
+    top: 17px;
+}
+
+#logout_user_icon:hover {
+    cursor: pointer;
+}
+
+/* Containers */
+
+.header_container{
+    width: 100%;
+    height: 20%;
+    background-color: #1B1B1B;
+}
+
+.col_user_name_container{
+    text-align: right;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+}
+
+.col_logout_icon_container{
+    text-align: center;
+
+}
+
+.col_user_name{
+    text-align: left;
+}
+
+.col_user_rol{
+    text-align: left;
+}
+
+.user_avatar{
+    position: relative;
+    top: -5px;
+}
+
+.user_container_row{
+    display: inline-block;
+}
+/* Textos */
+
+#user_name{
+    position: relative;
+    top: 13px;
+    color: #ffffff !important;
+    font-size: 22px;
+    text-transform: capitalize;
+}
+
+#user_rol{
+    position: relative; 
+    top: 5px;
+    color: #ffffff !important;
+    font-size: 13px;
+    text-transform: capitalize;
+}
+
+@media(max-width: 1300px){
+    #logo_cliente_header {
+        width: 150px;
+    }
+    .header_container{
+        height: 75px;
+    }
+    #logout_user_icon {
+        width: 35px;
+        top: 20px;
+    }
+    .user_avatar{
+        top: -2px !important;
+        width: 45px !important;
+        height: 45px !important;
+    }
+    #user_name{
+        top: 17px;
+        font-size: 19px;
+    }
+    #user_rol{
+        position: relative; 
+        top: 7px;
+        color: white;
+        font-size: 13px;
+        text-transform: capitalize;
+    }
+}
+@media(max-width: 1150px){
+    .header_container{
+        height: 70px;
+    }
+    #logo_cliente_header {
+        width: 130px;
+        margin-top: 8px;
+    }
+    #logout_user_icon {
+        width: 35px;
+        top: 17px;
+    }
+    .user_avatar{
+        top: -3px !important;
+        width: 45px !important;
+        height: 45px !important;
+    }
+    #user_name{
+        top: 15px;
+        font-size: 17px;
+    }
+    #user_rol{
+        position: relative; 
+        top: 7px;
+        color: white;
+        font-size: 13px;
+        text-transform: capitalize;
+    }
+}
+@media(max-width: 997px){
+    .header_container{
+        height: 60px;
+    }
+    #logo_cliente_header {
+        width: 120px;
+    }
+    #logout_user_icon {
+        width: 30px;
+        top: 15px;
+    }
+    .user_avatar{
+        top: -5px !important;
+        width: 40px !important;
+        height: 40px !important;
+    }
+    #user_name{
+        top: 10px;
+        font-size: 15px;
+    }
+    #user_rol{
+        top: 0px;
+        font-size: 11px;
+    }
+}
+@media(max-width: 600px){
+    #logout_user_icon {
+        right: 5px;
+    }
+}
+@media(max-width: 575px){
+    #logo_cliente_header {
+        width: 110px;
+        margin-top: 10px;
+    }
+    .user_container_row{
+        display: none !important;
+    }
+    #logout_user_icon {
+        right: 20px;
+    }
+    .user_avatar{
+        display: inline-block !important;
+        position: relative !important;
+        top: 4px !important;
+        width: 40px !important;
+        height: 40px !important;
+    }
+
+}
+@media(max-width: 400px){
+    #logout_user_icon {
+        right: 10px;
+    }
+}

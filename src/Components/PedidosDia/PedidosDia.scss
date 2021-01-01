@@ -1,0 +1,371 @@
+#orders_fixed_container {
+  position: fixed;
+  left: 0px;
+  top: 130px;
+  background-color: #ecbb3e;
+  z-index: 20;
+  width: 100%;
+  padding-bottom: 10px;
+  .arrow_back_container {
+    position: relative;
+    top: 20px;
+  }
+}
+.day_reference {
+  font-size: 22px;
+  color: #000000;
+}
+#add_order_button {
+  background-color: #000000 !important;
+  border: 1px solid #000000 !important;
+  color: #ffffff !important;
+  width: 90% !important;
+  font-size: 18px;
+}
+#add_order_button:hover {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+  border: 1px solid #ffffff !important;
+  .MuiButton-label:hover {
+    color: #000000 !important;
+  }
+}
+#search_input_orders {
+  background-color: rgb(39, 39, 39);
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  width: 65% !important;
+}
+#dni_modal_add_order-label,
+#product_modal_add_order-label,
+#observation_modal_add_order-labe,
+#observation_modal_add_order,
+#product_modal_add_order,
+#dni_modal_add_order,
+#name_modal_add_clients,
+#surname_modal_add_clients,
+#dni_modal_add_clients,
+#phone_modal_add_clients,
+#address_modal_add_clients,
+#address_modal_add_clients,
+#address_modal_add_clients-label,
+#name_modal_add_clients-label,
+#surname_modal_add_clients-label,
+#dni_modal_add_clients-label,
+#phone_modal_add_clients-label,
+#address_modal_add_clients-label {
+  color: #000000 !important;
+}
+.inputs_quantities {
+  width: 30%;
+  margin-left: 2px;
+  margin-right: 2px;
+  color: #000000;
+  text-align: center;
+  background-color: transparent;
+  border-right: 0px;
+  border-top: 0px;
+  border-left: 0px;
+  border-bottom: 1px solid #000000;
+}
+.inputs_quantities:focus {
+  border-bottom: 2px solid var(--main_color);
+}
+.client_search_card {
+  padding: 5px;
+  background: #ececec;
+  color: #000000;
+  margin-top: 10px;
+  border-radius: 10px;
+  p {
+    margin: 0px !important;
+    font-size: 13px;
+  }
+  .name {
+    font-weight: 600;
+    font-size: 14px;
+  }
+  .checkbox {
+    position: relative;
+    top: 15%;
+    right: 10px;
+  }
+  .MuiIconButton-root {
+    color: var(--main_color) !important;
+    input {
+      width: 30px !important;
+    }
+  }
+}
+.MuiButton-root.Mui-disabled {
+  opacity: 0.4;
+}
+#add_cliente {
+  background-color: var(--main_color) !important;
+  color: #ffffff !important;
+  width: 65% !important;
+}
+#add_cliente:hover {
+  background-color: #ffffff !important;
+  color: var(--main_color) !important;
+  .MuiButton-label:hover {
+    color: var(--main_color) !important;
+  }
+}
+.select_products_container,
+#clients_modal_container,
+#products_resume_container {
+  max-height: 450px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+// Vista de pedidos
+.actions_container_orders {
+  padding-left: 0px !important;
+  div {
+    padding-left: 0px !important;
+    .desplegable {
+      padding-right: 0px !important;
+    }
+  }
+}
+.order_render_container {
+  background-color: rgb(39, 39, 39);
+  margin: 20px;
+  border-radius: 10px;
+  display: inline-block;
+  padding: 20px;
+  max-width: 30%;
+  text-align: left !important;
+  p {
+    margin: 0 !important;
+  }
+  .card_name {
+    font-size: 14px;
+  }
+  .card_atr {
+    position: relative;
+    left: 5px;
+    .address {
+      width: 100%;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+  .MuiPaper-root {
+    background-color: transparent !important;
+    box-shadow: none !important;
+    color: inherit !important;
+  }
+  .MuiIconButton-root {
+    background-color: var(--main_color) !important;
+    border-radius: 5px;
+    span {
+      color: #ffffff;
+    }
+  }
+  .delete_order_icon {
+    border-radius: 100%;
+    position: absolute;
+    top: -3px;
+    right: 0px;
+    z-index: 1;
+    transition: all 0.3s;
+  }
+  .delete_order_icon:hover {
+    transform: scale(1.05);
+  }
+  .delete_order_icon_container {
+    position: relative;
+  }
+}
+// Tabla
+.MuiToolbar-gutters {
+  background-color: #272727 !important;
+  color: #ffffff !important;
+}
+@for $i from 1 through 500 {
+  .MTableToolbar-highlight-#{$i} {
+    background-color: #1b1b1b !important;
+  }
+}
+// Z-index modal
+.pac-container {
+  z-index: 99999 !important;
+}
+.MuiCheckbox-colorSecondary.Mui-checked {
+  color: var(--main_color) !important;
+}
+@media (max-width: 1300px) {
+  #orders_fixed_container {
+    top: 134px;
+  }
+  .day_reference {
+    font-size: 20px;
+  }
+}
+@media (max-width: 1200px) {
+  .order_render_container {
+    max-width: 45%;
+    width: 45% !important;
+  }
+}
+@media (max-width: 1150px) {
+  #orders_fixed_container {
+    top: 125px;
+  }
+  .day_reference {
+    font-size: 19px;
+  }
+  #add_order_button {
+    font-size: 17px;
+  }
+  #orders_fixed_container {
+    top: 130px;
+  }
+}
+@media (max-width: 998px) {
+  #orders_fixed_container {
+    top: 115px;
+  }
+  .day_reference {
+    font-size: 18px;
+  }
+  #add_order_button {
+    font-size: 17px;
+  }
+  #search_input_orders {
+    width: 85%;
+    font-size: 14px;
+  }
+}
+@media (max-width: 830px) {
+  .order_render_container {
+    max-width: 85%;
+    width: 85% !important;
+  }
+}
+@media (max-width: 768px) {
+  #search_input_orders {
+    width: 90%;
+    font-size: 13px;
+  }
+  #dni_modal_add_order-label,
+  #product_modal_add_order-label,
+  #observation_modal_add_order-labe,
+  #observation_modal_add_order,
+  #product_modal_add_order,
+  #dni_modal_add_order {
+    font-size: 0.8em !important;
+  }
+  .title_review {
+    font-size: 13px !important;
+  }
+  #add_order_button {
+    font-size: 16px;
+  }
+  .actions_container_orders {
+    .acomodable {
+      position: relative;
+      top: 5px;
+    }
+  }
+}
+@media (max-width: 600px) {
+  #orders_fixed_container {
+    top: 119px;
+  }
+  .responsive_actions {
+    text-align: center !important;
+    position: fixed !important;
+    bottom: 0px !important;
+    left: 0px !important;
+    width: 100% !important;
+    background-color: #ffffff !important;
+  }
+  #select_client_modal_pedidos,
+  #select_productos_modal_pedidos,
+  #review_modal_pedidos {
+    overflow: hidden !important;
+  }
+  .print_all_btn {
+    font-size: 12px !important;
+  }
+  @media (max-height: 600px) {
+    .select_products_container,
+    #clients_modal_container,
+    #products_resume_container {
+      max-height: 300px;
+      overflow: auto;
+    }
+  }
+  @media (min-height: 750px) {
+    .select_products_container,
+    #clients_modal_container,
+    #products_resume_container {
+      max-height: 500px;
+      overflow: auto;
+    }
+  }
+  @media (min-height: 800px) {
+    .select_products_container,
+    #clients_modal_container,
+    #products_resume_container {
+      max-height: 530px;
+      overflow: auto;
+    }
+  }
+}
+@media (max-width: 450px) {
+  #search_input_orders {
+    width: 100%;
+    margin-left: 30px !important;
+  }
+  .day_reference {
+    font-size: 16px;
+  }
+  #add_order_button {
+    font-size: 15px;
+  }
+  #add_cliente {
+    width: 80% !important;
+  }
+  .inputs_quantities {
+    font-size: 14px;
+  }
+  .client_search_card {
+    .MuiSvgIcon-root {
+      width: 0.6em !important;
+    }
+    .MuiFab-secondary {
+      width: 30px !important;
+      height: 10px !important;
+    }
+    p {
+      font-size: 12px !important;
+    }
+  }
+  .order_render_container {
+    margin-left: 10px;
+    max-width: 95%;
+    width: 95% !important;
+  }
+  .actions_container_orders {
+    padding-right: 0px !important;
+  }
+}
+@media (max-width: 360px) {
+  #search_input_orders {
+    width: 85%;
+  }
+  .actions_container_orders {
+    div:nth-child(3) {
+      left: 5px;
+    }
+    div:nth-child(1) {
+      left: -10px;
+    }
+  }
+}

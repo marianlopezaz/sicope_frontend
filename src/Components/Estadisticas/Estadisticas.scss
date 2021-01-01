@@ -1,0 +1,129 @@
+.day_stats_container{
+    background-color: rgb(39, 39, 39);
+    margin: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 20px;
+    max-width: 40%;
+    color: inherit !important;
+    text-decoration: none !important;
+    .day_name{
+        color: var(--main_color);
+        font-size: 18px;
+    }
+    .card_name{
+        font-size: 13px;
+    }
+    .card_atr{
+        font-size: 17px;
+    }
+    .stats_days_atrs{
+        position: relative;
+        left: 5px;
+    }
+    .most_sold{
+        background-color: #333333;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    .inner_card{
+        background-color: #333333;
+        padding: 10px;
+        border-radius: 10px;
+        color: inherit !important;
+        text-decoration: none !important;
+        color: #a9a9aa !important;
+        transition: all .3s;
+    }
+    .inner_card:hover{
+        transform: scale(1.08);
+    }
+    a:hover{
+        text-decoration: none;
+    }
+}
+.admin_stats_text{
+    display: none;
+}
+.admin_stats_cards{
+    width: 22%;
+}
+@media(max-width: 1300px){
+    .admin_stats_cards{
+        width: 25%;
+    }
+}
+@media(max-width: 1150px){
+    .admin_stats_cards{
+        width: 28%;
+    }
+}
+@media(max-width: 998px){
+    .admin_stats_cards{
+        width: 32%;
+    }
+}
+@media(max-width: 850px){
+    .admin_stats_cards{
+        width: 38%;
+    }
+}
+@media(max-width: 768px){
+    .day_stats_container{
+        max-width: 50% !important;
+        .day_name{
+            font-size: 14px;
+        }
+    }
+}
+@media(max-width: 700px){
+    .admin_stats{
+        display: flex;
+        overflow-y: auto;
+    }
+    #container_col_admin_stats{
+        position: absolute !important;
+        top: 21% !important;
+    }
+    #container_col_admin_stats div:first-child{
+        margin-bottom: 10px;
+    }
+    .day_stats_container{
+        .card_name{
+            font-size: 11px;
+        }
+        .card_atr{
+            font-size: 15px;
+        }
+    }
+    .admin_stats_text{
+        display: initial;
+    }
+    .admin_stats_cards{
+        margin-right: 10px !important;
+        max-width: 90% !important;
+        min-width: 50% !important;
+    }
+
+}
+@media(max-width: 550px){
+    .day_stats_container{
+        width: 70% !important;
+        max-width: 70% !important;
+    }
+    .admin_stats_cards{
+        min-width: 295px !important;
+    }
+    .admin_stats_cards:first-child{
+        margin-left: 5px;
+    }
+}
+@media(max-width: 400px){
+    .day_stats_container{
+        width: 90% !important;
+        max-width: 90% !important;
+    }
+    .admin_stats_cards{
+        min-width: 275px !important;
+    }
+}

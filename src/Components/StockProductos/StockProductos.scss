@@ -1,0 +1,43 @@
+#stock_search_input{
+    background-color: rgb(39, 39, 39);
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    width: 65%;
+}
+@media(max-width: 1150px){
+}
+@media(max-width: 998px){
+    #stock_search_input{
+        width: 85%;
+        font-size: 14px;
+    }
+}
+@media(max-width: 768px){
+    #stock_search_input{
+        width: 90%;
+        font-size: 13px;
+    }
+}
+@media(max-width: 450px){
+    #stock_search_input{
+        margin-left: 30px !important;
+    }
+    #col_stock_render{
+        position: relative;
+        right: -10px;
+    }
+}
+@media(max-width: 360px){
+    #col_arrow_back_container{
+        position: relative;
+        top: -40px;
+        right: -10px;
+    }
+    #col_stock_render{
+        top: -40px;
+    }
+    #stock_search_input{
+        width: 85%;
+    }
+}
